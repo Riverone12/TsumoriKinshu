@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="memo.css" />
+<title>8.食事の気をつけるべきポイント</title>
+</head>
+<body>
+
+<h1>アドバイスメモ目次</h1>
+<ul>
+    <li><a href="./memo_01.html">アルコールの正体を暴こう</a></li>
+    <li><a href="./memo_02.html">アルコールは"薬物"です</a></li>
+    <li><a href="./memo_03.html">アルコール依存症かも？</a></li>
+    <li><a href="./memo_04.html">アルコールの2つの効果</a></li>
+    <li><a href="./memo_05.html">節酒は禁酒よりもつらい!?</a></li>
+    <li><a href="./memo_06.html">禁酒は3日目までが勝負！</a></li>
+    <li><a href="./memo_07.html">お酒がないと眠れない時は</a></li>
+    <li><a href="./memo_08.html">食事の気をつけるべきポイント</a></li>
+</ul>
+
+<h1>8.食事の気をつけるべきポイント</h1>
+<h2>三食しっかり食べること</h2>
+<p>夕食はお酒と肴だけだった、なんて人は多いと思います。毎朝二日酔いでまともに朝食がとれていなかった、なんて人もいるでしょう。<br />
+禁酒中は三食しっかりとってください。美容と健康のためではありません。禁酒のためです。<br />
+お酒が飲みたくなるのはお腹がすいている時です。特に夕食時は空腹にならないよう気を付けてください。<br />
+太るのが気になる方は安心してください。お酒と肴のほうがよっぽど太ります。</p>
+<p>可能なら3時のおやつも効果的です。最近は低カロリー低糖質のお菓子がたくさん市販されています。とにかく空腹の時間をつくらないよう工夫しましょう。</p>
+<h2>お酒を連想するおかずを避ける</h2>
+<p>禁酒を始めてしばらくは、お酒を連想するおかずは極力避けましょう。<br />
+枝豆、さきいか、ミックスナッツなど、おつまみ関連は当分おあずけです。</p>
+<h2>味付けを薄くする</h2>
+<p>お酒を飲んでいると少々濃い味を好む傾向になります。また、濃い味の食事はのどが渇いた気になって、お酒が飲みたくなります。<br />
+ほんの少し、気持ちで構いません。今までよりも味付けを薄くしてみてください。意外と効果が高い禁酒法です。</p>
+
+<div id="bottom_navi">
+    <div class="box"><a href="./memo_00.html">&lt;&nbsp;前へ</a></div>
+    <div class="box"><a href="./memo_00.html">目次</a></div>
+    <div class="box"><a href="./memo_02.html">次へ&nbsp;&gt;</a></div>
+</div>
+<br />
+<div id="bottom_navi">
+    <div class="box">&lt;&nbsp;前へ</div>
+    <div class="box">目次</div>
+    <div class="box"><a href="./memo_02.html">次へ&nbsp;&gt;</a></div>
+</div>
+<br />
+<div id="bottom_navi">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"><a href="./memo_01.html">次へ&nbsp;&gt;</a></div>
+</div>
+
+</body>
+</html>

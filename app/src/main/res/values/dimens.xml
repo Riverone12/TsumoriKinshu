@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeSmall">18sp</dimen>
+    <dimen name="textSizeMiddle">22sp</dimen>
+    <dimen name="textSizeLarge">28sp</dimen>
+
+    <dimen name="chartTextSize">14sp</dimen>
+
+    <dimen name="padding_pager">8dp</dimen>
+    <dimen name="padding_memo">8dp</dimen>
+
+    <dimen name="indent_margin">12dp</dimen>
+    <dimen name="bottom_space">12dp</dimen>
+    <dimen name="bottom_space_mid">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+</resources>

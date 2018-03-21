@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="pref_reset"
+        android:title="@string/pref_title_reset"
+        android:summary="@string/pref_summary_reset">
+        <!--
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="biz.riverone.tsumorikinshu"
+            android:targetClass="biz.riverone.tsumorikinshu.views.PreferenceSubActivity">
+            <extra
+                android:name="preference_mode"
+                android:value="100" />
+        </intent>
+        -->
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="pref_start_day"
+        android:title="@string/pref_title_start_day">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="biz.riverone.tsumorikinshu"
+            android:targetClass="biz.riverone.tsumorikinshu.views.PreferenceSubActivity">
+            <extra
+                android:name="preference_mode"
+                android:value="101" />
+        </intent>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="pref_yen_per_day"
+        android:title="@string/pref_title_yen_per_day">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="biz.riverone.tsumorikinshu"
+            android:targetClass="biz.riverone.tsumorikinshu.views.PreferenceSubActivity">
+            <extra
+                android:name="preference_mode"
+                android:value="102" />
+        </intent>
+    </PreferenceScreen>
+
+</PreferenceScreen>

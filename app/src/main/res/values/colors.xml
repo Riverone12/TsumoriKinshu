@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="chart_border">#666666</color>
+    <color name="chart_back">#ffffff</color>
+
+    <color name="colorDarkGray">#333333</color>
+    <color name="colorLightGray">#eeeeee</color>
+    <color name="colorSilverGray">#dddddd</color>
+
+    <color name="colorBlue">#0000aa</color>
+    <color name="colorRed">#aa0000</color>
+</resources>

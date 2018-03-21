@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">禁酒でつもり貯金</string>
+
+    <!---->
+    <string name="banner_ad_unit_id">ca-app-pub-1882812461462801/3895726291</string>
+    <!---->
+    <!-- Test
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+    <!-- Main Menu -->
+    <string name="menu_settings">設定</string>
+    <string name="menu_title_payment">入金(貯金額を増やす)</string>
+    <string name="menu_title_withdrawal">出金(貯金を引き出す)</string>
+    <string name="menu_title_memo">禁酒コラム</string>
+
+    <!-- MainActivity -->
+    <string name="caption_to_calendar">カレンダー表示</string>
+
+    <string name="title_total_days">始めてから</string>
+    <string name="title_done_days">禁酒できた日</string>
+    <string name="title_continuous_days">連続 </string>
+    <string name="title_amount">つもり貯金</string>
+    <string name="title_accumulated_amount">累計 </string>
+    <string name="title_yen_per_day">1日</string>
+
+    <string name="captionMonth">月</string>
+    <string name="captionDate">日</string>
+    <string name="caption_post_day">日</string>
+    <string name="caption_post_yen">円</string>
+
+    <string name="caption_button_done0">今日は禁酒できた!!</string>
+    <string name="caption_button_done1">今日も禁酒できた!!</string>
+
+    <string name="caption_back_to_main">戻る</string>
+    <string name="captionOk">OK</string>
+    <string name="captionCancel">キャンセル</string>
+    <string name="caption_close">閉じる</string>
+    <string name="caption_next">次へ</string>
+    <string name="caption_previous">戻る</string>
+    <string name="caption_complete">完了</string>
+
+    <!-- Preferences -->
+    <string name="pref_dialog_title">禁酒でつもり貯金の設定</string>
+
+    <string name="pref_title_start_day">禁酒開始日</string>
+    <string name="pref_title_yen_per_day">1日あたりの貯金額</string>
+    <string name="pref_title_reset">リセット</string>
+    <string name="pref_summary_reset">このアプリのすべてのデータを削除します。</string>
+
+    <!-- ResetDialogFragment -->
+    <string name="title_reset_dialog">禁酒でつもり貯金のリセット</string>
+    <string name="summary_reset">このアプリのすべてのデータを削除します。実行すると元に戻すことはできません。\n</string>
+    <string name="caption_reset_check">リセットを実行します</string>
+
+    <!-- SetStartDayDialogFragment -->
+    <string name="title_start_day_dialog">禁酒開始日を指定してください</string>
+
+    <!-- SetYenPerDayDialogFragment -->
+    <string name="title_yen_per_day_dialog">1日あたりの貯金額</string>
+    <string name="summary_yen_per_day">お酒に費やす金額を、1日分に換算して入力してください</string>
+    <string name="yen_per_day_pre_label">1日あたり</string>
+
+    <!-- SetPaymentDialogFragment -->
+    <string name="title_payment_dialog">入金(貯金額を増やす)</string>
+    <string name="summary_payment">貯金箱への入金額を入力してください</string>
+    <string name="payment_pre_label">入金額</string>
+
+    <!-- SetWithdrawalDialogFragment -->
+    <string name="title_withdrawal_dialog">出金(貯金を引き出す)</string>
+    <string name="summary_withdrawal">貯金箱からの出金額を入力してください</string>
+    <string name="withdrawal_pre_label">出金額</string>
+    <string name="title_activity_wizard">WizardActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- アドバイスメモ -->
+    <string name="title_activity_memo">禁酒コラム</string>
+    <string name="button_next">次ページへ</string>
+    <string name="button_previous">前ページへ</string>
+    <string name="button_index">目次へ</string>
+    <string name="menu_title_close">閉じる</string>
+
+    <!-- Wizard -->
+    <string name="wizard00_title">ようこそ！\n「禁酒でつもり貯金」へ！</string>
+    <string name="wizard00_message1">　このアプリは、毎日お酒を飲んだ「つもり」になって、節約できた金額を貯金する「つもり貯金」をお手伝いします。\n</string>
+    <string name="wizard00_message2">　お酒を控えて健康になったうえ、お金も貯めてしまおう！というわけです。\n</string>
+    <string name="wizard00_message3">　まずは次ページから準備を行いましょう。</string>
+
+    <string name="wizard01_title">準備1\n1日のお酒代を教えてください。</string>
+    <string name="wizard01_message1">　あなたがお酒に費やしている金額を、1日分に換算して入力してください。だいたいで結構です。\n</string>
+    <string name="wizard01_message2">　今日からお酒を飲まずにすんだ日には、この金額ずつ貯金が増えていきます。\n</string>
+
+    <string name="wizard02_title">準備2\n専用の貯金箱を用意してください。</string>
+    <string name="wizard02_message1">　適当な空き箱で構いません。専用の貯金箱を用意してください。\n</string>
+    <string name="wizard02_add">　1ヶ月で%1$s円、1年で%2$s円ほどその中に入ります。</string>
+
+    <string name="wizard03_title">準備が整いました！</string>
+    <string name="wizard03_message1">　今後お酒を飲まずにすんだ日は「今日は禁酒できた!!」ボタンをタップします。\nそして1日分の金額を貯金箱に納めます。</string>
+    <string name="wizard03_message2">たったこれだけです。\n</string>
+    <string name="wizard03_message3">まずは今日1日、お酒を飲まずに貯金しておきましょう。\n</string>
+
+    <string name="message_int_value_error">金額として無効な値です。入力し直してください。</string>
+</resources>

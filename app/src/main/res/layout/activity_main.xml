@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="biz.riverone.tsumorikinshu.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/linkToCalendar"
+        android:background="@color/chart_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/chart_back"
+            android:layout_marginBottom="1dp"
+            android:padding="@dimen/padding_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Space
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/caption_to_calendar"
+                android:textSize="@dimen/textSizeSmall"
+                android:gravity="end|center_vertical"
+                android:drawableStart="@drawable/ic_action_go_to_today"
+                android:drawableLeft="@drawable/ic_action_go_to_today"
+                android:drawableEnd="@drawable/ic_action_next_item"
+                android:drawableRight="@drawable/ic_action_next_item"
+                android:drawablePadding="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_pager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/textViewCurrentDate"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/bottom_space"
+            android:textSize="@dimen/textSizeLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/bottom_space_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/title_total_days"
+                android:textSize="@dimen/textSizeMiddle"
+                android:gravity="end"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/indent_margin"
+                android:paddingEnd="@dimen/indent_margin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewTotalDays"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSizeLarge"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/title_done_days"
+                android:textSize="@dimen/textSizeMiddle"
+                android:gravity="end"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/indent_margin"
+                android:paddingEnd="@dimen/indent_margin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewDoneDays"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSizeLarge"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/bottom_space_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v4.widget.Space
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewContinuousDays"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSizeMiddle"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/title_amount"
+                android:textSize="@dimen/textSizeMiddle"
+                android:gravity="end"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/indent_margin"
+                android:paddingEnd="@dimen/indent_margin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewAmount"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSizeLarge"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewYenPerDay"
+                android:textSize="@dimen/textSizeMiddle"
+                android:gravity="end"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/indent_margin"
+                android:paddingEnd="@dimen/indent_margin"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewAccumulatedAmount"
+                android:textStyle="bold"
+                android:textSize="@dimen/textSizeMiddle"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:text="@string/caption_button_done0"
+        android:textSize="@dimen/textSizeMiddle"
+        android:layout_marginBottom="@dimen/bottom_space"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:background="#666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </FrameLayout>
+</LinearLayout>
